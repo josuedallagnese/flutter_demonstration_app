@@ -1,7 +1,7 @@
 import 'dart:async';
 
-import 'package:flutter_sqlite/constants/constants.dart';
-import 'package:flutter_sqlite/models/customer.dart';
+import 'package:flutter_demonstration_app/constants/constants.dart';
+import 'package:flutter_demonstration_app/models/customer.dart';
 import 'package:path/path.dart';
 import 'package:sqflite/sqflite.dart';
 

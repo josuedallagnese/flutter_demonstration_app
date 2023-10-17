@@ -1,6 +1,6 @@
-import 'package:flutter_sqlite/constants/database_constants.dart';
-import 'package:flutter_sqlite/infra/database_provider.dart';
-import 'package:flutter_sqlite/models/customer.dart';
+import 'package:flutter_demonstration_app/constants/database_constants.dart';
+import 'package:flutter_demonstration_app/infra/database_provider.dart';
+import 'package:flutter_demonstration_app/models/customer.dart';
 import 'package:get_it/get_it.dart';
 import 'package:sqflite/sqflite.dart';
 

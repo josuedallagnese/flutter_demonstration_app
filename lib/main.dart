@@ -1,5 +1,5 @@
 import 'package:flutter/widgets.dart';
-import 'package:flutter_sqlite/core/app_locator.dart';
+import 'package:flutter_demonstration_app/core/app_locator.dart';
 import 'app.dart';
 
 Future<void> main() async {

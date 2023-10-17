@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_sqlite/components/simple_future_builder.dart';
-import 'package:flutter_sqlite/core/app_locator.dart';
-import 'package:flutter_sqlite/core/app_navigation.dart';
-import 'package:flutter_sqlite/infra/customers_repository.dart';
-import 'package:flutter_sqlite/models/customer.dart';
-import 'package:flutter_sqlite/view/customers/customer_tile.dart';
+import 'package:flutter_demonstration_app/components/simple_future_builder.dart';
+import 'package:flutter_demonstration_app/core/app_locator.dart';
+import 'package:flutter_demonstration_app/core/app_navigation.dart';
+import 'package:flutter_demonstration_app/infra/customers_repository.dart';
+import 'package:flutter_demonstration_app/models/customer.dart';
+import 'package:flutter_demonstration_app/view/customers/customer_tile.dart';
 
 class CustomersList extends StatefulWidget {
   const CustomersList({super.key});

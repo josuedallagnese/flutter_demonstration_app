@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_sqlite/core/app_navigation.dart';
-import 'package:flutter_sqlite/view/customers/customer_form.dart';
-import 'package:flutter_sqlite/view/customers/customers_list.dart';
+import 'package:flutter_demonstration_app/core/app_navigation.dart';
+import 'package:flutter_demonstration_app/view/customers/customer_form.dart';
+import 'package:flutter_demonstration_app/view/customers/customers_list.dart';
+import 'package:flutter_demonstration_app/view/home.dart';
 
 class App extends StatelessWidget {
   const App({super.key});
@@ -13,7 +14,8 @@ class App extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       routes: {
-        AppNavigation.home: (_) => const CustomersList(),
+        AppNavigation.home: (_) => const Home(),
+        AppNavigation.customers: (_) => const CustomersList(),
         AppNavigation.customerForm: (_) => const CustomerForm()
       },
       debugShowCheckedModeBanner: false,

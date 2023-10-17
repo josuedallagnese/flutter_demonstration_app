@@ -1,5 +1,5 @@
-import 'package:flutter_sqlite/infra/customers_repository.dart';
-import 'package:flutter_sqlite/infra/database_provider.dart';
+import 'package:flutter_demonstration_app/infra/customers_repository.dart';
+import 'package:flutter_demonstration_app/infra/database_provider.dart';
 import 'package:get_it/get_it.dart';
 
 final locator = GetIt.instance;
